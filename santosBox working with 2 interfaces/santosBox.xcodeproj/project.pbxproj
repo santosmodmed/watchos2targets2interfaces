@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B46B0581EAF85C400B24F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46B0571EAF85C400B24F1D /* AppDelegate.swift */; };
+		1B46B05A1EAF85C400B24F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46B0591EAF85C400B24F1D /* ViewController.swift */; };
+		1B46B05D1EAF85C400B24F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B05B1EAF85C400B24F1D /* Main.storyboard */; };
+		1B46B05F1EAF85C400B24F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B05E1EAF85C400B24F1D /* Assets.xcassets */; };
+		1B46B0621EAF85C400B24F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B0601EAF85C400B24F1D /* LaunchScreen.storyboard */; };
+		1B46B06B1EAF860900B24F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46B0591EAF85C400B24F1D /* ViewController.swift */; };
+		1B46B06C1EAF860900B24F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46B0571EAF85C400B24F1D /* AppDelegate.swift */; };
+		1B46B06F1EAF860900B24F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B0601EAF85C400B24F1D /* LaunchScreen.storyboard */; };
+		1B46B0701EAF860900B24F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B05E1EAF85C400B24F1D /* Assets.xcassets */; };
+		1B46B0711EAF860900B24F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46B05B1EAF85C400B24F1D /* Main.storyboard */; };
+		1BA9CCEA1EAF89FB00DE32A8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCE81EAF89FB00DE32A8 /* Interface.storyboard */; };
+		1BA9CCEC1EAF89FB00DE32A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCEB1EAF89FB00DE32A8 /* Assets.xcassets */; };
+		1BA9CCF31EAF89FC00DE32A8 /* santosWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BA9CCF21EAF89FB00DE32A8 /* santosWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BA9CCF81EAF89FC00DE32A8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9CCF71EAF89FC00DE32A8 /* InterfaceController.swift */; };
+		1BA9CCFA1EAF89FC00DE32A8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9CCF91EAF89FC00DE32A8 /* ExtensionDelegate.swift */; };
+		1BA9CCFC1EAF89FC00DE32A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCFB1EAF89FC00DE32A8 /* Assets.xcassets */; };
+		1BA9CD001EAF89FC00DE32A8 /* santosWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BA9CCE61EAF89FB00DE32A8 /* santosWatch.app */; };
+		1BA9CD0E1EAF8E2400DE32A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCEB1EAF89FB00DE32A8 /* Assets.xcassets */; };
+		1BA9CD191EAF8E2800DE32A8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9CCF91EAF89FC00DE32A8 /* ExtensionDelegate.swift */; };
+		1BA9CD1A1EAF8E2800DE32A8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9CCF71EAF89FC00DE32A8 /* InterfaceController.swift */; };
+		1BA9CD1E1EAF8E2800DE32A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCFB1EAF89FC00DE32A8 /* Assets.xcassets */; };
+		1BA9CD271EAF9B9600DE32A8 /* santosAlterWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BA9CD221EAF8E2800DE32A8 /* santosAlterWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BA9CD2E1EAFA17A00DE32A8 /* santosAlterWatch.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BA9CD151EAF8E2400DE32A8 /* santosAlterWatch.app */; };
+		1BA9CD301EAFB34B00DE32A8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CD2F1EAFB34B00DE32A8 /* Interface.storyboard */; };
+		1BA9CD311EAFB35F00DE32A8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CCE81EAF89FB00DE32A8 /* Interface.storyboard */; };
+		1BA9CD321EAFB36800DE32A8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA9CD2F1EAFB34B00DE32A8 /* Interface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA9CCF41EAF89FC00DE32A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46B04C1EAF85C400B24F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA9CCF11EAF89FB00DE32A8;
+			remoteInfo = "santosWatch Extension";
+		};
+		1BA9CCFE1EAF89FC00DE32A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46B04C1EAF85C400B24F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA9CCE51EAF89FB00DE32A8;
+			remoteInfo = santosWatch;
+		};
+		1BA9CD281EAF9B9600DE32A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46B04C1EAF85C400B24F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA9CD171EAF8E2800DE32A8;
+			remoteInfo = "santosAlterWatch Extension";
+		};
+		1BA9CD2B1EAFA0D700DE32A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46B04C1EAF85C400B24F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA9CCE51EAF89FB00DE32A8;
+			remoteInfo = santosWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BA9CD061EAF89FC00DE32A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1BA9CCF31EAF89FC00DE32A8 /* santosWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD081EAF89FC00DE32A8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1BA9CD001EAF89FC00DE32A8 /* santosWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD2A1EAF9B9700DE32A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1BA9CD271EAF9B9600DE32A8 /* santosAlterWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD2D1EAFA0F100DE32A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1BA9CD2E1EAFA17A00DE32A8 /* santosAlterWatch.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B46B0541EAF85C400B24F1D /* santosBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = santosBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B46B0571EAF85C400B24F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B46B0591EAF85C400B24F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B46B05C1EAF85C400B24F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B46B05E1EAF85C400B24F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B46B0611EAF85C400B24F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B46B0631EAF85C400B24F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B46B0751EAF860900B24F1D /* santosAlterBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = santosAlterBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B46B0761EAF860900B24F1D /* santosBox copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "santosBox copy-Info.plist"; path = "/Users/santos.ramon/projects/santosBox/santosBox copy-Info.plist"; sourceTree = "<absolute>"; };
+		1BA9CCE61EAF89FB00DE32A8 /* santosWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = santosWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA9CCE91EAF89FB00DE32A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1BA9CCEB1EAF89FB00DE32A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BA9CCED1EAF89FB00DE32A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA9CCF21EAF89FB00DE32A8 /* santosWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "santosWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA9CCF71EAF89FC00DE32A8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1BA9CCF91EAF89FC00DE32A8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1BA9CCFB1EAF89FC00DE32A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BA9CCFD1EAF89FC00DE32A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA9CD151EAF8E2400DE32A8 /* santosAlterWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = santosAlterWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA9CD161EAF8E2500DE32A8 /* santosWatch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "santosWatch copy-Info.plist"; path = "/Users/santos.ramon/projects/santosBox/santosWatch copy-Info.plist"; sourceTree = "<absolute>"; };
+		1BA9CD221EAF8E2800DE32A8 /* santosAlterWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "santosAlterWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA9CD231EAF8E2900DE32A8 /* santosWatch Extension copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "santosWatch Extension copy-Info.plist"; path = "/Users/santos.ramon/projects/santosBox/santosWatch Extension copy-Info.plist"; sourceTree = "<absolute>"; };
+		1BA9CD2F1EAFB34B00DE32A8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B46B0511EAF85C400B24F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B46B06D1EAF860900B24F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CCEF1EAF89FB00DE32A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD1B1EAF8E2800DE32A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B46B04B1EAF85C400B24F1D = {
+			isa = PBXGroup;
+			children = (
+				1B46B0561EAF85C400B24F1D /* santosBox */,
+				1BA9CCE71EAF89FB00DE32A8 /* santosWatch */,
+				1BA9CCF61EAF89FC00DE32A8 /* santosWatch Extension */,
+				1B46B0551EAF85C400B24F1D /* Products */,
+				1B46B0761EAF860900B24F1D /* santosBox copy-Info.plist */,
+				1BA9CD161EAF8E2500DE32A8 /* santosWatch copy-Info.plist */,
+				1BA9CD231EAF8E2900DE32A8 /* santosWatch Extension copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1B46B0551EAF85C400B24F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B46B0541EAF85C400B24F1D /* santosBox.app */,
+				1B46B0751EAF860900B24F1D /* santosAlterBox.app */,
+				1BA9CCE61EAF89FB00DE32A8 /* santosWatch.app */,
+				1BA9CCF21EAF89FB00DE32A8 /* santosWatch Extension.appex */,
+				1BA9CD151EAF8E2400DE32A8 /* santosAlterWatch.app */,
+				1BA9CD221EAF8E2800DE32A8 /* santosAlterWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B46B0561EAF85C400B24F1D /* santosBox */ = {
+			isa = PBXGroup;
+			children = (
+				1B46B0571EAF85C400B24F1D /* AppDelegate.swift */,
+				1B46B0591EAF85C400B24F1D /* ViewController.swift */,
+				1B46B05B1EAF85C400B24F1D /* Main.storyboard */,
+				1B46B05E1EAF85C400B24F1D /* Assets.xcassets */,
+				1B46B0601EAF85C400B24F1D /* LaunchScreen.storyboard */,
+				1B46B0631EAF85C400B24F1D /* Info.plist */,
+			);
+			path = santosBox;
+			sourceTree = "<group>";
+		};
+		1BA9CCE71EAF89FB00DE32A8 /* santosWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1BA9CCE81EAF89FB00DE32A8 /* Interface.storyboard */,
+				1BA9CCEB1EAF89FB00DE32A8 /* Assets.xcassets */,
+				1BA9CCED1EAF89FB00DE32A8 /* Info.plist */,
+				1BA9CD2F1EAFB34B00DE32A8 /* Interface.storyboard */,
+			);
+			path = santosWatch;
+			sourceTree = "<group>";
+		};
+		1BA9CCF61EAF89FC00DE32A8 /* santosWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1BA9CCF71EAF89FC00DE32A8 /* InterfaceController.swift */,
+				1BA9CCF91EAF89FC00DE32A8 /* ExtensionDelegate.swift */,
+				1BA9CCFB1EAF89FC00DE32A8 /* Assets.xcassets */,
+				1BA9CCFD1EAF89FC00DE32A8 /* Info.plist */,
+			);
+			path = "santosWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B46B0531EAF85C400B24F1D /* santosBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B46B0661EAF85C400B24F1D /* Build configuration list for PBXNativeTarget "santosBox" */;
+			buildPhases = (
+				1B46B0501EAF85C400B24F1D /* Sources */,
+				1B46B0511EAF85C400B24F1D /* Frameworks */,
+				1B46B0521EAF85C400B24F1D /* Resources */,
+				1BA9CD081EAF89FC00DE32A8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA9CCFF1EAF89FC00DE32A8 /* PBXTargetDependency */,
+			);
+			name = santosBox;
+			productName = santosBox;
+			productReference = 1B46B0541EAF85C400B24F1D /* santosBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B46B0691EAF860900B24F1D /* santosAlterBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B46B0721EAF860900B24F1D /* Build configuration list for PBXNativeTarget "santosAlterBox" */;
+			buildPhases = (
+				1B46B06A1EAF860900B24F1D /* Sources */,
+				1B46B06D1EAF860900B24F1D /* Frameworks */,
+				1B46B06E1EAF860900B24F1D /* Resources */,
+				1BA9CD2D1EAFA0F100DE32A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA9CD2C1EAFA0D700DE32A8 /* PBXTargetDependency */,
+			);
+			name = santosAlterBox;
+			productName = santosBox;
+			productReference = 1B46B0751EAF860900B24F1D /* santosAlterBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BA9CCE51EAF89FB00DE32A8 /* santosWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA9CD071EAF89FC00DE32A8 /* Build configuration list for PBXNativeTarget "santosWatch" */;
+			buildPhases = (
+				1BA9CCE41EAF89FB00DE32A8 /* Resources */,
+				1BA9CD061EAF89FC00DE32A8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA9CCF51EAF89FC00DE32A8 /* PBXTargetDependency */,
+			);
+			name = santosWatch;
+			productName = santosWatch;
+			productReference = 1BA9CCE61EAF89FB00DE32A8 /* santosWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1BA9CCF11EAF89FB00DE32A8 /* santosWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA9CD051EAF89FC00DE32A8 /* Build configuration list for PBXNativeTarget "santosWatch Extension" */;
+			buildPhases = (
+				1BA9CCEE1EAF89FB00DE32A8 /* Sources */,
+				1BA9CCEF1EAF89FB00DE32A8 /* Frameworks */,
+				1BA9CCF01EAF89FB00DE32A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "santosWatch Extension";
+			productName = "santosWatch Extension";
+			productReference = 1BA9CCF21EAF89FB00DE32A8 /* santosWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1BA9CD0A1EAF8E2400DE32A8 /* santosAlterWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA9CD121EAF8E2400DE32A8 /* Build configuration list for PBXNativeTarget "santosAlterWatch" */;
+			buildPhases = (
+				1BA9CD0D1EAF8E2400DE32A8 /* Resources */,
+				1BA9CD2A1EAF9B9700DE32A8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA9CD291EAF9B9600DE32A8 /* PBXTargetDependency */,
+			);
+			name = santosAlterWatch;
+			productName = santosWatch;
+			productReference = 1BA9CD151EAF8E2400DE32A8 /* santosAlterWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1BA9CD171EAF8E2800DE32A8 /* santosAlterWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA9CD1F1EAF8E2800DE32A8 /* Build configuration list for PBXNativeTarget "santosAlterWatch Extension" */;
+			buildPhases = (
+				1BA9CD181EAF8E2800DE32A8 /* Sources */,
+				1BA9CD1B1EAF8E2800DE32A8 /* Frameworks */,
+				1BA9CD1C1EAF8E2800DE32A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "santosAlterWatch Extension";
+			productName = "santosWatch Extension";
+			productReference = 1BA9CD221EAF8E2800DE32A8 /* santosAlterWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B46B04C1EAF85C400B24F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Santos Ramon";
+				TargetAttributes = {
+					1B46B0531EAF85C400B24F1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQQM7TAGYM;
+						ProvisioningStyle = Automatic;
+					};
+					1B46B0691EAF860900B24F1D = {
+						DevelopmentTeam = TQQM7TAGYM;
+					};
+					1BA9CCE51EAF89FB00DE32A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQQM7TAGYM;
+						ProvisioningStyle = Automatic;
+					};
+					1BA9CCF11EAF89FB00DE32A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQQM7TAGYM;
+						ProvisioningStyle = Automatic;
+					};
+					1BA9CD0A1EAF8E2400DE32A8 = {
+						DevelopmentTeam = TQQM7TAGYM;
+					};
+					1BA9CD171EAF8E2800DE32A8 = {
+						DevelopmentTeam = TQQM7TAGYM;
+					};
+				};
+			};
+			buildConfigurationList = 1B46B04F1EAF85C400B24F1D /* Build configuration list for PBXProject "santosBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B46B04B1EAF85C400B24F1D;
+			productRefGroup = 1B46B0551EAF85C400B24F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B46B0531EAF85C400B24F1D /* santosBox */,
+				1B46B0691EAF860900B24F1D /* santosAlterBox */,
+				1BA9CCE51EAF89FB00DE32A8 /* santosWatch */,
+				1BA9CCF11EAF89FB00DE32A8 /* santosWatch Extension */,
+				1BA9CD0A1EAF8E2400DE32A8 /* santosAlterWatch */,
+				1BA9CD171EAF8E2800DE32A8 /* santosAlterWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B46B0521EAF85C400B24F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B46B0621EAF85C400B24F1D /* LaunchScreen.storyboard in Resources */,
+				1B46B05F1EAF85C400B24F1D /* Assets.xcassets in Resources */,
+				1B46B05D1EAF85C400B24F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B46B06E1EAF860900B24F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B46B06F1EAF860900B24F1D /* LaunchScreen.storyboard in Resources */,
+				1B46B0701EAF860900B24F1D /* Assets.xcassets in Resources */,
+				1B46B0711EAF860900B24F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CCE41EAF89FB00DE32A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CCEC1EAF89FB00DE32A8 /* Assets.xcassets in Resources */,
+				1BA9CCEA1EAF89FB00DE32A8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CCF01EAF89FB00DE32A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CD311EAFB35F00DE32A8 /* Interface.storyboard in Resources */,
+				1BA9CCFC1EAF89FC00DE32A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD0D1EAF8E2400DE32A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CD0E1EAF8E2400DE32A8 /* Assets.xcassets in Resources */,
+				1BA9CD301EAFB34B00DE32A8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD1C1EAF8E2800DE32A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CD321EAFB36800DE32A8 /* Interface.storyboard in Resources */,
+				1BA9CD1E1EAF8E2800DE32A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B46B0501EAF85C400B24F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B46B05A1EAF85C400B24F1D /* ViewController.swift in Sources */,
+				1B46B0581EAF85C400B24F1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B46B06A1EAF860900B24F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B46B06B1EAF860900B24F1D /* ViewController.swift in Sources */,
+				1B46B06C1EAF860900B24F1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CCEE1EAF89FB00DE32A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CCFA1EAF89FC00DE32A8 /* ExtensionDelegate.swift in Sources */,
+				1BA9CCF81EAF89FC00DE32A8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA9CD181EAF8E2800DE32A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9CD191EAF8E2800DE32A8 /* ExtensionDelegate.swift in Sources */,
+				1BA9CD1A1EAF8E2800DE32A8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BA9CCF51EAF89FC00DE32A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA9CCF11EAF89FB00DE32A8 /* santosWatch Extension */;
+			targetProxy = 1BA9CCF41EAF89FC00DE32A8 /* PBXContainerItemProxy */;
+		};
+		1BA9CCFF1EAF89FC00DE32A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA9CCE51EAF89FB00DE32A8 /* santosWatch */;
+			targetProxy = 1BA9CCFE1EAF89FC00DE32A8 /* PBXContainerItemProxy */;
+		};
+		1BA9CD291EAF9B9600DE32A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA9CD171EAF8E2800DE32A8 /* santosAlterWatch Extension */;
+			targetProxy = 1BA9CD281EAF9B9600DE32A8 /* PBXContainerItemProxy */;
+		};
+		1BA9CD2C1EAFA0D700DE32A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA9CCE51EAF89FB00DE32A8 /* santosWatch */;
+			targetProxy = 1BA9CD2B1EAFA0D700DE32A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B46B05B1EAF85C400B24F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B46B05C1EAF85C400B24F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B46B0601EAF85C400B24F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B46B0611EAF85C400B24F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BA9CCE81EAF89FB00DE32A8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA9CCE91EAF89FB00DE32A8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B46B0641EAF85C400B24F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B46B0651EAF85C400B24F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B46B0671EAF85C400B24F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = santosBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B46B0681EAF85C400B24F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = santosBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B46B0731EAF860900B24F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosBox copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B46B0741EAF860900B24F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosBox copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1BA9CD011EAF89FC00DE32A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				IBSC_MODULE = santosWatch_Extension;
+				INFOPLIST_FILE = santosWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		1BA9CD021EAF89FC00DE32A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				IBSC_MODULE = santosWatch_Extension;
+				INFOPLIST_FILE = santosWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		1BA9CD031EAF89FC00DE32A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		1BA9CD041EAF89FC00DE32A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosBox.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		1BA9CD131EAF8E2400DE32A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				IBSC_MODULE = santosWatch_Extension;
+				INFOPLIST_FILE = "santosWatch copy-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		1BA9CD141EAF8E2400DE32A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				IBSC_MODULE = santosWatch_Extension;
+				INFOPLIST_FILE = "santosWatch copy-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		1BA9CD201EAF8E2800DE32A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosWatch Extension copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		1BA9CD211EAF8E2800DE32A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TQQM7TAGYM;
+				INFOPLIST_FILE = "santosWatch Extension copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modmed.tools.santosAlterBox.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B46B04F1EAF85C400B24F1D /* Build configuration list for PBXProject "santosBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B46B0641EAF85C400B24F1D /* Debug */,
+				1B46B0651EAF85C400B24F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B46B0661EAF85C400B24F1D /* Build configuration list for PBXNativeTarget "santosBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B46B0671EAF85C400B24F1D /* Debug */,
+				1B46B0681EAF85C400B24F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B46B0721EAF860900B24F1D /* Build configuration list for PBXNativeTarget "santosAlterBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B46B0731EAF860900B24F1D /* Debug */,
+				1B46B0741EAF860900B24F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA9CD051EAF89FC00DE32A8 /* Build configuration list for PBXNativeTarget "santosWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA9CD031EAF89FC00DE32A8 /* Debug */,
+				1BA9CD041EAF89FC00DE32A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA9CD071EAF89FC00DE32A8 /* Build configuration list for PBXNativeTarget "santosWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA9CD011EAF89FC00DE32A8 /* Debug */,
+				1BA9CD021EAF89FC00DE32A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA9CD121EAF8E2400DE32A8 /* Build configuration list for PBXNativeTarget "santosAlterWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA9CD131EAF8E2400DE32A8 /* Debug */,
+				1BA9CD141EAF8E2400DE32A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA9CD1F1EAF8E2800DE32A8 /* Build configuration list for PBXNativeTarget "santosAlterWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA9CD201EAF8E2800DE32A8 /* Debug */,
+				1BA9CD211EAF8E2800DE32A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B46B04C1EAF85C400B24F1D /* Project object */;
+}
